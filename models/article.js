@@ -7,14 +7,21 @@ const articleSchema = new Schema({
         unique: true
         // required: true
     },
-    date: {
-        type: String
-        // required: true
+    header: {
+        type: String,
+    },
+    snippet: {
+        type: String,
     },
     URL: {
         type: String
         // required: true
+    },
+    date: {
+        type: String
+        // required: true
     }
+
 });
 
 const Article = mongoose.model("Article", articleSchema);
