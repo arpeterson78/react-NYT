@@ -60,7 +60,6 @@ class App extends Component {
     let secondDate = event.target.children[4].value;
     let endDate = secondDate.replace(/-/g, "");
 
-    // console.log(search, startDate, endDate);
     this.loadArticle(search, startDate, endDate);
 
   }
