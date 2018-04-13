@@ -4,7 +4,7 @@ var mongojs = require('mongojs');
 var morgan = require('morgan');
 const mongoose = require('mongoose');
 var db = require('./models');
-var MONGODB_URI = process.env.MONGODB_URI || "mongodb://localhost:/nyt";
+var MONGODB_URI = process.env.MONGODB_URI || "mongodb://arpeterson78:#Chicken13@ds139781.mlab.com:39781/heroku_sjq7s3hz";
 mongoose.connect(MONGODB_URI);
 mongoose.Promise = Promise;
 
